@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase que contenha letras "a": ')).strip()
+frasemi = frase.lower()
+print('Quantas vezes aparece a letra "a"? {}'.format(frasemi.count('a')))
+print('Em que posição a letra "a" aparece primeiro? {}'.format(frasemi.find('a')+1))
+print('Em que posição a letra "a" aparece por último? {}'.format(frasemi.rfind('a')+1))
